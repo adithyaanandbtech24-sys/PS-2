@@ -98,6 +98,46 @@ struct HomeView: View {
                 }
                 .padding(.horizontal, AppTheme.Spacing.base)
                 .opacity(appeared ? 1 : 0)
+
+                // AI AR Material Scanner Banner
+                Button(action: {
+                    router.navigate(to: .arMaterialScanner)
+                }) {
+                    HStack(spacing: AppTheme.Spacing.md) {
+                        VStack(alignment: .leading, spacing: 4) {
+                            HStack(spacing: 6) {
+                                Text("NEW FEATURE")
+                                    .font(.system(size: 9, weight: .bold))
+                                    .padding(.horizontal, 6)
+                                    .padding(.vertical, 2)
+                                    .background(Color.white.opacity(0.3))
+                                    .foregroundColor(.white)
+                                    .cornerRadius(6)
+                                Text("AR Surface Detection")
+                                    .font(AppTheme.Typography.captionBold)
+                                    .foregroundColor(.white.opacity(0.9))
+                            }
+                            Text("Live AI AR Scanner & Carbon Audit")
+                                .font(AppTheme.Typography.headline)
+                                .foregroundColor(.white)
+                            Text("Scan polymers in 3D & view EPR tax savings")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(.white.opacity(0.85))
+                        }
+                        Spacer()
+                        Image(systemName: "cube.transparent.fill")
+                            .font(.system(size: 32))
+                            .foregroundColor(.white)
+                    }
+                    .padding(AppTheme.Spacing.md)
+                    .background(
+                        LinearGradient(colors: [Color(hex: "#10B981"), Color(hex: "#059669")], startPoint: .leading, endPoint: .trailing)
+                    )
+                    .cornerRadius(AppTheme.CornerRadius.large)
+                    .shadow(color: Color(hex: "#10B981").opacity(0.3), radius: 10, x: 0, y: 4)
+                }
+                .padding(.horizontal, AppTheme.Spacing.base)
+                .opacity(appeared ? 1 : 0)
                 
                 // Categories Section
                 VStack(alignment: .leading, spacing: AppTheme.Spacing.md) {

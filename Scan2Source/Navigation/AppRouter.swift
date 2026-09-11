@@ -19,6 +19,8 @@ enum AppRoute: Hashable {
     case profile
     case browseCategories
     case signIn
+    case arMaterialScanner
+    case carbonFootprint(productId: UUID)
 }
 
 // MARK: - App Router (Observable Navigation State)

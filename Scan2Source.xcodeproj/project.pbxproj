@@ -39,14 +39,17 @@
 		BDAE4420D8BF53C201779934 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FC65F457683D3C59172D0B /* Preview Assets.xcassets */; };
 		BE263CD8C561EDD68F7EE894 /* BudgetRangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED317FD459548C4F315432E8 /* BudgetRangeSlider.swift */; };
 		C28204402DD2F366F8A44725 /* ScanProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9088CC92BFCE3A8FD2C6113 /* ScanProductView.swift */; };
+		C32CFD2B7A2E8BF7966203AC /* ARMaterialScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BCF48010437115DF15A06 /* ARMaterialScannerView.swift */; };
 		C37EB96718E0FBE84BF59DDB /* Enquiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A371ABA0367CCF00F94FDC /* Enquiry.swift */; };
 		CAF6E1A07FBACBECD94484B5 /* SupplierResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81AAD721B1B5283BC03091 /* SupplierResultsView.swift */; };
 		CF0913C285035854F7908D99 /* RequirementSummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BAC7104D921AFC57F4AD59 /* RequirementSummaryCard.swift */; };
 		CF33292BA2C00ABBF22E336A /* FindingMatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070B19E63325E00D12F79A1 /* FindingMatchesView.swift */; };
 		D0C92313CE6B5F576937487D /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE37CC99BE441942B1DBBD3 /* Match.swift */; };
+		D1B68F7ADE30F421B30B6A5C /* CarbonFootprintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB21F2F7AFB7AB102F589D2 /* CarbonFootprintView.swift */; };
 		D5348F247788B0E68225ABFF /* SupplierDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EA448A6B87C93CF0FD45C /* SupplierDetailView.swift */; };
 		D978665B0BA72BB84DDB2263 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FACCBF29C1C092C830212F5 /* User.swift */; };
 		D9F599ECB0A7BD0373B7C331 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DE5BAB732B2A90AF85923 /* SignInView.swift */; };
+		E63479A802E8AF56FD7570F5 /* CarbonEstimatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A95DF5CC46B3356D2EF9D6 /* CarbonEstimatorService.swift */; };
 		F2076EFAFFFF1D456F8D823E /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832644703E7F4519DED7C9CB /* DemoData.swift */; };
 		FDA3007CC63AB3A8E0621362 /* SupplierCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D0A824AB3FA93BFFA3287D /* SupplierCard.swift */; };
 /* End PBXBuildFile section */
@@ -54,6 +57,7 @@
 /* Begin PBXFileReference section */
 		0533329F254E32CCF8313259 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
 		05473FFD4A0E10C103B96DFA /* RequirementsFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementsFormView.swift; sourceTree = "<group>"; };
+		05A95DF5CC46B3356D2EF9D6 /* CarbonEstimatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonEstimatorService.swift; sourceTree = "<group>"; };
 		077676461CF8B815A6FB8C4A /* Scan2SourceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan2SourceApp.swift; sourceTree = "<group>"; };
 		15EDF202D6F4E0044FC02F13 /* ProductResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResultView.swift; sourceTree = "<group>"; };
 		2170D30998F04D30C1EB80D5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -71,7 +75,9 @@
 		5AE37CC99BE441942B1DBBD3 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		5C6428ABF6652E294EC219B5 /* Quotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotation.swift; sourceTree = "<group>"; };
 		74FC65F457683D3C59172D0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DB21F2F7AFB7AB102F589D2 /* CarbonFootprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootprintView.swift; sourceTree = "<group>"; };
 		832644703E7F4519DED7C9CB /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		8A4BCF48010437115DF15A06 /* ARMaterialScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMaterialScannerView.swift; sourceTree = "<group>"; };
 		8CEC1C608AAE6832A1970D79 /* EnquirySentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnquirySentView.swift; sourceTree = "<group>"; };
 		8FACCBF29C1C092C830212F5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		925BEB036A11F4A1EA423044 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
@@ -148,7 +154,9 @@
 			children = (
 				0E8C4A41647ECD1A4EC986BA /* Components */,
 				A3C030C7AFFEDBC7CA574BF6 /* AIAnalysisView.swift */,
+				8A4BCF48010437115DF15A06 /* ARMaterialScannerView.swift */,
 				2A9A521E4F9E9F1874008703 /* BrowseCategoriesView.swift */,
+				7DB21F2F7AFB7AB102F589D2 /* CarbonFootprintView.swift */,
 				8CEC1C608AAE6832A1970D79 /* EnquirySentView.swift */,
 				3070B19E63325E00D12F79A1 /* FindingMatchesView.swift */,
 				38AA2244F2C6239CC730F7C6 /* HomeView.swift */,
@@ -197,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				0533329F254E32CCF8313259 /* AIService.swift */,
+				05A95DF5CC46B3356D2EF9D6 /* CarbonEstimatorService.swift */,
 				45301F51ADDF284812EBD353 /* DataManager.swift */,
 				3054A71F5823C58DFC2FCC36 /* MatchingEngine.swift */,
 			);
@@ -300,11 +309,14 @@
 			files = (
 				2DC71D45078E56B57CC34E5C /* AIAnalysisView.swift in Sources */,
 				50DACF059CCCA1DD8B0AA30F /* AIService.swift in Sources */,
+				C32CFD2B7A2E8BF7966203AC /* ARMaterialScannerView.swift in Sources */,
 				6D548F5FDF5911D123E58745 /* AnimatedProgressView.swift in Sources */,
 				761F89C0091E259C5D80BF48 /* AppRouter.swift in Sources */,
 				020F3666F10670A7D2052D75 /* AppTheme.swift in Sources */,
 				AB7CC8256F3EE1FB1A9BD8F9 /* BrowseCategoriesView.swift in Sources */,
 				BE263CD8C561EDD68F7EE894 /* BudgetRangeSlider.swift in Sources */,
+				E63479A802E8AF56FD7570F5 /* CarbonEstimatorService.swift in Sources */,
+				D1B68F7ADE30F421B30B6A5C /* CarbonFootprintView.swift in Sources */,
 				84AFD02F145332F86ECB572E /* CategoryCard.swift in Sources */,
 				92791974F22025ECF8508598 /* ContentView.swift in Sources */,
 				0B15D92DCC90635FA8A2F902 /* DataManager.swift in Sources */,

@@ -181,6 +181,23 @@ struct ProductResultView: View {
                         .buttonStyle(PrimaryCTA())
                         
                         Button(action: {
+                            if let firstProd = dataManager.products.first {
+                                router.navigate(to: .carbonFootprint(productId: firstProd.id))
+                            }
+                        }) {
+                            HStack {
+                                Image(systemName: "leaf.fill")
+                                Text("Check Carbon Footprint & EPR Tax")
+                            }
+                            .foregroundColor(AppTheme.Colors.primary)
+                            .font(AppTheme.Typography.headline)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 14)
+                            .background(AppTheme.Colors.primary.opacity(0.12))
+                            .cornerRadius(AppTheme.CornerRadius.large)
+                        }
+                        
+                        Button(action: {
                             // Seed edit fields
                             editedCategory = analysis.category
                             editedCapacity = analysis.estimatedCapacity

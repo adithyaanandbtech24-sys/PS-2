@@ -45,6 +45,10 @@ struct ContentView: View {
                                 BrowseCategoriesView()
                             case .signIn:
                                 SignInView()
+                            case .arMaterialScanner:
+                                ARMaterialScannerView()
+                            case .carbonFootprint(let productId):
+                                CarbonFootprintView(productId: productId)
                             }
                         }
                 }
